@@ -1,0 +1,13 @@
+<div class="autores-container">
+  <h2>Livros</h2>
+  <div class="obras-container">
+    <div class="titulo-container">
+      <h3>Nossos Livros</h3>
+    </div>
+    <div class="lista-obras">
+      <div class="obra" *ngFor="let livro of livros">
+        <p><strong>{{ livro.nome }}</strong>  {{ livro.nomeObra }}</p>
+      </div>
+    </div>
+  </div>
+</div>

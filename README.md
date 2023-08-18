@@ -1,2 +1,3 @@
-# test-front
- front end da aplicação criada para o teste
+# test projeto
+
+a aplicação funcinara perfeitamente apenas precisando ser instalado a lib axios para conexão com nossa api e todo o resto o cli do angular ira fazer a instalação

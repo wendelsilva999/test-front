@@ -1,0 +1,9 @@
+<div class="welcome-container">
+  <h2>Seja bem-vindo, autor {{ nome }}</h2>
+  <div class="obras-container">
+    <h3>Obras</h3>
+    <ul>
+      <li *ngFor="let obra of obras">{{ obra }}</li>
+    </ul>
+  </div>
+</div>
