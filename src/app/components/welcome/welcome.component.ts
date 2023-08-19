@@ -13,10 +13,9 @@ export class WelcomeComponent implements OnInit {
   constructor(private route: ActivatedRoute) {}
 
   ngOnInit(): void {
-    // Captura os parâmetros da URL
     this.route.queryParams.subscribe(params => {
       this.nome = params['nome'];
-      this.obras = params['nomedaobra'].split(','); // Se estiverem separadas por vírgula
+      this.obras = params['nomedaobra'].split(',');
     });
   }
 }
