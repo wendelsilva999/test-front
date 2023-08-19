@@ -25,7 +25,7 @@ export class LoginComponent {
         const nomeAutor = response.data.user.nome;
         const nomeDaObra = response.data.user.nomedaobra;
         const welcomeUrl = `/welcome?nome=${nomeAutor}&nomedaobra=${nomeDaObra}`;
-        window.open(welcomeUrl, '_blank'); // Abre a página em uma nova aba
+        window.open(welcomeUrl, '_blank');
       })
       .catch(error => {
         console.error('Erro ao fazer login:', error);
