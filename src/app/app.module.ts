@@ -24,7 +24,7 @@ import { WelcomeComponent } from './components/welcome/welcome.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule // Adicione o FormsModule aqui
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
